@@ -14,3 +14,39 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.quiz {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score, .question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: .9rem;
+  margin: 15px;
+  border: 1px solid white;
+  font-size: 2.5rem;
+}
+
+.question {
+  font-size: 1.5rem;
+}
+
+.next-button {
+  border: 1px solid white;
+  border-radius: .3rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #fff;
+  color: #000;
+}
