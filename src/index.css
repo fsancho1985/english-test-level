@@ -170,3 +170,22 @@
 .disabled-answer {
   pointer-events: none;
 }
+
+@media(max-width: 900px) {
+  .quiz {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .answers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .answer {
+    width: 80%;
+    margin: 10px;
+  }
+}
