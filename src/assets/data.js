@@ -25,7 +25,7 @@ const data = [
     correctAnswer: "He goes to work by bus",
   },
   {
-    question: "Which sentence is correct",
+    question: "Which sentence is correct?",
     incorrectAnswers: [
       "George has very big car",
       "George a very big car has"
