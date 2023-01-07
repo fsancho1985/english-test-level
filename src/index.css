@@ -173,12 +173,13 @@
 
 @media(max-width: 900px) {
   .quiz {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
   .answers {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,5 +188,9 @@
   .answer {
     width: 80%;
     margin: 10px;
+  }
+  .next-button {
+    width: 250px;
+    padding: 14px 30px;
   }
 }
