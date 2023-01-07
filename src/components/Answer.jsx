@@ -5,7 +5,7 @@ const Answer = ({
   currentAnswer,
   correctAnswer
 }) => {
-  const letterMapping = ['A', 'B', 'C']
+  const letterMapping = ['A', 'B', 'C', 'D']
   const isCorrectAnswer = currentAnswer && answerText === correctAnswer
   const isWrongAnswer =
     currentAnswer === answerText && currentAnswer !== correctAnswer

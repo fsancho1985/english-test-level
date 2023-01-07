@@ -10,7 +10,9 @@ const Quiz = () => {
     <div className="quiz">
       {quizState.showResults && (
         <div className="results">
-          <div className="congratulations">Congratulations!</div>
+          {quizState.correctAnswerCount >= 8 ? <div className="congratulations">Congratulations!</div> : <div className='study-more'>Sorry you should study more!
+          <p>Your level is begginer</p>
+          </div>}
           <div className="results-info">
             <div>You have completed the quiz.</div>
             <div>You've got {quizState.correctAnswerCount} of{" "} {quizState.questions.length} right.</div>
